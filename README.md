@@ -1,40 +1,116 @@
 # Hi there 👋
 
-## 🚀 Full-Stack Developer & Electronics Engineer
+## 🚀 Performance-Driven Full-Stack Developer & Electronics Engineer
 
-I'm a passionate **Full-Stack Developer** with extensive experience in **Node.js**, **React**, and **TypeScript**. I specialize in building efficient, high-performance web applications using the latest tools and technologies. My focus is on creating scalable systems, seamless state management, and delivering optimized solutions that make a real difference.
+I’m a **performance-obsessed Full-Stack Developer** and **Electronics Engineer** focused on building **fast, predictable, and scalable systems**.
+I optimize aggressively — from **SQL execution plans** to **React render cycles** — and I prefer tools that stay out of my way.
 
-## 🛠️ Skills & Expertise
-
-- **Backend Development**: Skilled in Node.js, Fastify, Mercurius, GraphQL, and TypeScript to build scalable and efficient APIs.
-- **Frontend Development**: Proficient in React, Zustand, TanStack Query, and crafting custom hooks to ensure high-quality user interfaces.
-- **State Management**: Deep understanding of React hooks, global state management with Zustand and TanStack Query, leveraging SuperJSON for optimal performance.
-- **Real-time Systems**: Experienced in building real-time applications using uWebSocket.js, Redis PubSub, and WebSocket integrations for dynamic and interactive user experiences.
-- **Database Management**: Proficient in PostgreSQL, Knex.js, Objection.js, and multi-schema setups for efficient database operations. Familiar with TimescaleDB for handling time-series data and optimizing SQL queries.
-- **Software Architecture**: Strong emphasis on performance, type safety, adaptability, scalability, and advanced real-time operations.
-
-## ⚙️ Electronics Engineering Background
-
-I'm also an experienced **Electronics Engineer** with a solid background in low-level programming and **PCB design**. I've worked on projects across **military**, **industrial**, and **consumer** sectors, ensuring robust and reliable solutions. My expertise includes hardware-software integration, low-level communication protocols, and developing complex electronic systems.
-
-### Highlights of My Electronics Engineering Experience
-
-- **Low-Level Programming**: Proficient in C/C++, assembly language, and embedded systems programming for microcontrollers and FPGAs.
-- **PCB Design & Prototyping**: Skilled in designing, prototyping, and testing PCBs for various industries, ensuring high reliability and performance.
-- **Military-Grade Systems**: Experience in developing rugged electronic systems for military applications, adhering to strict standards and compliance requirements.
-- **Industrial Automation**: Developed electronic solutions for industrial automation, integrating with PLCs, sensors, and control systems.
-- **Consumer Electronics**: Worked on consumer-facing devices, focusing on user-friendly designs and seamless hardware-software interaction.
-
-## 💬 Personal Attributes
-
-- **Problem Solver**: I enjoy tackling complex challenges, whether it's in software architecture or electronics design.
-- **Continuous Learner**: Always exploring new technologies, tools, and methodologies to stay ahead in both software and hardware fields.
-- **Open-Source Enthusiast**: Actively contribute to open-source projects and love building tools that benefit the developer community.
-
-## 🌍 Connect with Me
-
-I'm open to collaborations, new opportunities, or just a friendly chat about tech! Feel free to reach out if you'd like to connect.
+I run **all services on Bun and Go**, organize everything inside a **Turbo monorepo**, and treat performance as a **first-class requirement**, not an afterthought.
 
 ---
 
-This README provides an overview of my journey as both a **software developer** and an **electronics engineer**. I'm committed to creating impactful solutions, whether it's writing efficient code, designing innovative electronics, or pushing the boundaries of technology.
+## 🧠 Engineering Philosophy
+
+* ⚡ **Speed > Convenience**
+* 🧩 **Monorepo-first architecture**
+* 🔁 **Zero unnecessary abstractions**
+* 🎯 **Every render, query, and syscall matters**
+* 🧠 **If I can reason about it, I can optimize it**
+
+I actively avoid over-engineered stacks and ORMs.
+I prefer **raw SQL**, **explicit data flow**, and **measurable performance gains**.
+
+---
+
+## 🛠️ Core Stack & Tooling
+
+### Backend
+
+* **Runtime**: Bun (primary), Go
+* **APIs**: HTTP, REST, GraphQL, real-time systems
+* **Databases**: PostgreSQL (raw SQL only — no ORM)
+* **Data Access**: Bun native SQL
+* **Architecture**: Turbo monorepo for all services & apps
+
+### Frontend
+
+* **React (performance-focused)**
+* **TanStack Ecosystem (heavy user)**
+
+  * TanStack Start
+  * TanStack Router
+  * TanStack Query
+  * TanStack Store / DB
+* **State Strategy**: Server-state first, minimal client state
+* **Rendering Discipline**: I actively optimize to avoid **even a single unnecessary render**
+
+### Performance & Real-Time
+
+* WebSockets & streaming architectures
+* Short-lived HTTP-based real-time architectures
+* Pub/Sub patterns
+* Low-latency data paths
+* Query-level and render-level profiling
+
+---
+
+## 🧩 What I Care About (A Lot)
+
+* **Render cost in React**
+* **Cold-start times**
+* **Query execution plans**
+* **Network round-trips**
+* **Bundle size & hydration**
+* **Predictable performance under load**
+
+If something adds abstraction without measurable value, I don’t use it.
+
+## 🧪 Currently Building
+A performance-first SaaS platform with Bun, raw SQL, and render-level React profiling.
+
+---
+
+## 📈 GitHub Activity
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=acoBOYZ&theme=github-compact)
+
+Consistency over spikes — I prefer steady iteration and continuous refinement.
+
+## ⚙️ Electronics Engineering Background
+
+Alongside software, I’m a trained **Electronics Engineer** with hands-on experience in **low-level systems** and **hardware-software integration**.
+
+### Highlights
+
+* **Low-Level Programming**: C/C++, embedded systems, bare-metal thinking
+* **PCB Design**: Schematic design, prototyping, validation
+* **Industry Experience**:
+
+  * Military-grade systems
+  * Industrial automation
+  * Consumer electronics
+* **Mindset**: Determinism, reliability, and system boundaries
+
+This background strongly influences how I design software systems.
+
+---
+
+## 💬 Personal Traits
+
+* **Performance-driven problem solver**
+* **Opinionated, but pragmatic**
+* **Tooling minimalist**
+* **Open-source friendly**
+* **Always profiling, always refining**
+
+---
+
+## ⏱ Coding Activity (Last 7 Days)
+
+<!--START_SECTION:waka-->
+
+<!--END_SECTION:waka-->
+
+---
+
+*This repository reflects how I think, build, and optimize systems — from hardware-level constraints to frontend render paths. I value speed, clarity, and control at every layer.*
