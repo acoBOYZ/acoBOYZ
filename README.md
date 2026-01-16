@@ -105,12 +105,4 @@ This background strongly influences how I design software systems.
 
 ---
 
-## ⏱ Coding Activity (Last 7 Days)
-
-<!--START_SECTION:waka-->
-
-<!--END_SECTION:waka-->
-
----
-
 *This repository reflects how I think, build, and optimize systems — from hardware-level constraints to frontend render paths. I value speed, clarity, and control at every layer.*
