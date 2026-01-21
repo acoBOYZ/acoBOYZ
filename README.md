@@ -36,11 +36,13 @@ I prefer **raw SQL**, **explicit data flow**, and **measurable performance gains
 
 * **React (performance-focused)**
 * **TanStack Ecosystem (heavy user)**
-
   * TanStack Start
   * TanStack Router
-  * TanStack Query
-  * TanStack Store / DB
+  * TanStack Db
+  * TanStack Store
+  * TanStack Pacer
+  * TanStack Virtual
+  * TanStack Table
 * **State Strategy**: Server-state first, minimal client state
 * **Rendering Discipline**: I actively optimize to avoid **even a single unnecessary render**
 
