@@ -27,7 +27,7 @@ I prefer **raw SQL**, **explicit data flow**, and **measurable performance gains
 ### Backend
 
 * **Runtime**: Bun (primary), Go
-* **APIs**: HTTP, REST, GraphQL, real-time systems
+* **APIs**: HTTP, REST, Grpc, real-time systems
 * **Databases**: PostgreSQL (raw SQL only — no ORM)
 * **Data Access**: Bun native SQL
 * **Architecture**: Turbo monorepo for all services & apps
