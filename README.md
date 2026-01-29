@@ -72,12 +72,6 @@ A performance-first SaaS platform with Bun, raw SQL, and render-level React prof
 
 ---
 
-## 📈 GitHub Activity
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=acoBOYZ&theme=github-compact)
-
-Consistency over spikes — I prefer steady iteration and continuous refinement.
-
 ## ⚙️ Electronics Engineering Background
 
 Alongside software, I’m a trained **Electronics Engineer** with hands-on experience in **low-level systems** and **hardware-software integration**.
